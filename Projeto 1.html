@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de inglês</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header> 
+        <h1>  Body Parts for Kids <br></h1>  
+        <h3> Quais são as partes do corpo da Alexia? </h3>
+    </header>
+
+    <section> 
+        
+        <div id="perguntas">
+
+            <audio src="C:\Users\Elaine Brito\Desktop\JS\Projeto 1\musica.wav" autoplay></audio>
+
+            <div id="pergunta1">
+                
+                             
+                <div id="foto1">
+                    <img id="imagem1" src="imagembody0.PNG" alt="corpo humano" width="500"> <br>
+                </div>
+                <div id="alt1">
+                    <p> Vamos começar?</p>
+                    <input type="radio" name="radpart" id="sim">
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="radpart" id="nao">
+                    <label for=nao>Não</label>
+                    
+                    <p><input type="button" value="OK" onclick="verificar1()" ></p>
+                   
+                   
+                       
+                    
+                    
+                </div>
+            </div>                 
+            <div id="pergunta2"> 
+                
+                <div id="msg2"> 
+                    <p> 1º Desafio </p> 
+                </div>
+                <div id="foto2"> 
+                    <img id="imagem2" src="imagemolho1.PNG" alt="foto de olhos"> 
+                </div>
+                <div id="alt2"> 
+                    <p>
+                    <input type="radio" name="radpart" id="olhos">
+                    <label for="olhos">a) Eye</label> 
+                    <input type="radio" name="radpart" id="orelha">
+                    <label for="orelha">b) Ear</label> 
+                    <input type="radio" name="radpart" id="beijo">
+                    <label for="beijo">c) Kiss</label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar2()"></p>
+                                           
+                </div>
+            </div>
+
+    
+            <div id="pergunta3">
+                <div id="msg3"> 
+                    <p> 2º Desafio </p> <br>
+                </div>
+                <div id="foto3"> 
+                    <img id="imagem3" src="imagemboca1.PNG" alt="foto de boca">
+                </div>
+                <div id="alt3"> 
+                    <p>
+                    <input type="radio" name="radpart" id="dedo">
+                    <label for="dedo">a) Finger </label> 
+                    <input type="radio" name="radpart" id="boca">
+                    <label for="boca">b) Mouth </label> 
+                    <input type="radio" name="radpart" id="pescoço">
+                    <label for="pescoço">c) Neck </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar3()"></p>                                  
+                   
+                </div>
+            </div>
+
+
+            <div id="pergunta4">
+                <div id="msg4"> 
+                    <p> 3º Desafio </p> <br>
+                </div>
+                <div id="foto4"> 
+                    <img id="imagem4" src="imagembraço1.PNG" alt="foto de braço"> 
+                </div>
+                <div id="alt4"> 
+                    <p>
+                    <input type="radio" name="radpart" id="braço">
+                    <label for="braço">a) Arm </label> 
+                    <input type="radio" name="radpart" id="dente">
+                    <label for="dente">b) Teeth </label> 
+                    <input type="radio" name="radpart" id="cabelo">
+                    <label for="cabelo">c) Hair </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar4()">
+                                        
+                    
+                </div>
+            </div>
+
+            <div id="pergunta5">
+                <div id="msg5"> 
+                    <p> 4º Desafio </p> <br>
+                </div>
+                <div id="foto5"> 
+                    <img id="imagem5" src="imagemnariz1.PNG" alt="foto de nariz"> 
+                </div>
+                <div id="alt5"> 
+                    <p>
+                    <input type="radio" name="radpart" id="cora">
+                    <label for="cora">a) Heart </label> 
+                    <input type="radio" name="radpart" id="house">
+                    <label for="house">b) House </label> 
+                    <input type="radio" name="radpart" id="nariz">
+                    <label for="nariz">c) Nose </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar5()"></p>
+                </div>
+            </div>
+
+            <div id="pergunta6">
+                <div id="msg6"> 
+                    <p> 5º Desafio </p> <br>
+               </div>
+                <div id="foto6"> 
+                    <img id="imagem6" src="imagemcabeça1.PNG" alt="foto de cabeça"> 
+                </div>
+                <div id="alt6"> 
+                    <p>
+                    <input type="radio" name="radpart" id="lingua">
+                    <label for="lingua">a) Tougue </label> 
+                    <input type="radio" name="radpart" id="cabeça">
+                    <label for="cabeça">b) Head </label> 
+                    <input type="radio" name="radpart" id="oculos">
+                    <label for="oculos">c) Glasses </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar6()"></p>
+                </div>
+            </div>
+
+            <div id="pergunta7">
+                <div id="msg7"> 
+                    <p> 6º Desafio </p> <br>
+                </div>
+                <div id="foto7"> 
+                    <img id="imagem7" src="imagemorelha1.PNG" alt="foto de orelha"> 
+                </div>
+                <div id="alt7"> 
+                    <p>
+                    <input type="radio" name="radpart" id="ear">
+                    <label for="ear">a) Ear </label> 
+                    <input type="radio" name="radpart" id="dent">
+                    <label for="dent">b) Teeth </label> 
+                    <input type="radio" name="radpart" id="unhas">
+                    <label for="unhas">c) Nails </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar7()"></p>
+                </div>
+            </div>
+
+            <div id="pergunta8">
+                <div id="msg8"> 
+                    <p> 7º Desafio </p> <br>
+               </div>
+                <div id="foto8"> 
+                    <img id="imagem8" src="imagemperna1.PNG" alt="foto de perna">
+                </div>
+                <div id="alt8"> 
+                    <p>
+                    <input type="radio" name="radpart" id="pen">
+                    <label for="pen">a) Pen </label> 
+                    <input type="radio" name="radpart" id="leg">
+                    <label for="leg">b) Leg </label> 
+                    <input type="radio" name="radpart" id="nail">
+                    <label for="nail">c) Nail </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar8()"></p>
+                </div>
+            </div>
+
+            <div id="pergunta9">
+                <div id="msg9"> 
+                    <p> 8º Desafio </p> <br>
+                </div>
+                <div id="foto9"> 
+                    <img id="imagem9" src="imagemmao1.PNG" alt="foto de mão"> 
+                </div>
+                <div id="alt9"> 
+                    <p>
+                    <input type="radio" name="radpart" id="pencil">
+                    <label for="pencil">a) Pencil </label> 
+                    <input type="radio" name="radpart" id="skin">
+                    <label for="skin">b) Skin </label> 
+                    <input type="radio" name="radpart" id="mao">
+                    <label for="mao">c) Hand </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar9()"></p>
+                </div>
+            </div>
+
+
+            <div id="pergunta10">
+                <div id="msg10"> 
+                    <p> 9º Desafio </p> <br>
+                </div>
+                <div id="foto10"> 
+                    <img id="imagem10" src="imagemjoelho1.PNG" alt="foto de joelho"> 
+                </div>
+                <div id="alt10"> 
+                    <p>
+                    <input type="radio" name="radpart" id="eyebrow">
+                    <label for="eyebrow">a) Eyebrow </label> 
+                    <input type="radio" name="radpart" id="knee">
+                    <label for="knee">b) Knee </label> 
+                    <input type="radio" name="radpart" id="eyes">
+                    <label for="eyes">c) Eyes </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar10()"></p>
+                </div>
+            </div>
+
+            <div id="pergunta11">
+                <div id="msg11"> 
+                    <p> 10º Desafio </p> <br>
+                </div>
+                <div id="foto11"> 
+                    <img id="imagem11" src="imagempe1.PNG" alt="foto de pé"> 
+                </div>
+                <div id="alt11"> 
+                    <p>
+                    <input type="radio" name="radpart" id="foot">
+                    <label for="Foot">a) Foot </label> 
+                    <input type="radio" name="radpart" id="stomach">
+                    <label for="stomach">b) Stomach </label> 
+                    <input type="radio" name="radpart" id="blood">
+                    <label for="blood">c) Blood </label> </p>
+        
+                    <p><input type="button" value="Verificar" onclick="verificar11()"></p>
+                </div>
+            </div>
+
+            <div id="pergunta12">
+                <div id="msg12"> 
+                    <p> Parabéns!!! <br> Você concluiu o desafio! </p> <br>
+                </div>
+                <div id="foto12"> 
+                    <img id="imagem11" src="imagembody.PNG" alt="foto de de corpo completo"> 
+                </div>
+                
+
+                <div id="alt12"> 
+                    <p>Deseja jogar novamente? <br>
+                    <input type="radio" name="radpart" id="respsim">
+                    <label for="respsim">a) Sim </label> 
+                    <input type="radio" name="radpart" id="respnao">
+                    <label for="respnao">b) Não </label> </p>
+                    
+        
+                    <p><input type="button" value="OK" onclick="verificar12()"></p>
+                </div>
+                
+            </div>
+  
+        </div>    
+                    
+    </section>
+
+    <div id="res1"></div>
+   
+    <div id="proximo"><p><input type="button" value="Próximo" onclick="proximo()"></p></div>
+
+    <footer> 
+        <p>&copy; IronHack</p>
+    </footer>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
+
